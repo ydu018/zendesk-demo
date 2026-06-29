@@ -53,6 +53,21 @@ h1, h2, h3, h4 { font-weight: 800; line-height: 1.15; margin: 0 0 .5em; }
 .btn-outline:hover { background: var(--ink); color: #fff; }
 .btn.full { width: 100%; margin-top: 10px; }
 
+/* Parent company bar */
+.parent-bar {
+  display: block;
+  background: #060c1d;
+  color: #cdd6f4;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  padding: 7px 16px;
+}
+.parent-bar strong { color: #c8a96a; }
+.parent-bar:hover { color: #fff; }
+
 /* Announcement bar */
 .announce {
   background: var(--gold);
